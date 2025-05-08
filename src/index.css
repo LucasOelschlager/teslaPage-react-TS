@@ -6,6 +6,8 @@
 
 :root {
   --nav-item-color: #171a20;
+  --nav-item-color-hover: #171a20;
+  --nav-btn-hover-color: #bbb;
   --btn-primary-color: #3e6ae1;
   --btn-primary-color-hover: #2f5bb8;
 }

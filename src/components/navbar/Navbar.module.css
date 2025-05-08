@@ -51,3 +51,50 @@
   align-items: center;
   gap: 1rem;
 }
+
+.btn {
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+  span {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btnHover {
+  color: var(--nav-btn-hover-color);
+  opacity: 0.8;
+  border: none;
+  padding: 10px 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+
+  span {
+    color: var(--nav-item-color-hover);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+  }
+}
+
+.vehicles {
+  height: 100vh;
+  background-color: black;
+}
